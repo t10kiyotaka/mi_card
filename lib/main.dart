@@ -20,7 +20,12 @@ class MyApp extends StatelessWidget {
               ),
               Text(
                 'Kiyotaka Tomii',
-                style: TextStyle(color: Colors.white, fontSize: 40.0, fontWeight: FontWeight.bold),
+                style:
+                    TextStyle(color: Colors.white, fontSize: 40.0, fontWeight: FontWeight.bold, fontFamily: 'Pacifico'),
+              ),
+              Text(
+                'Web developer',
+                style: TextStyle(color: Colors.white, fontSize: 20.0, fontFamily: 'RobotoMono'),
               )
             ],
           ),
